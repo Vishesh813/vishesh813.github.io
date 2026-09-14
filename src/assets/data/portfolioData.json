@@ -1,0 +1,455 @@
+{
+  "personal": {
+    "name": "Vishesh Tiwari",
+    "title": "Full Stack Java Developer",
+    "experience": "6.5+ Years Experience",
+    "currentRole": "Senior Engineer",
+    "currentCompany": "Target",
+    "location": "India",
+    "email": "vishesh.tiwari813@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vishesh-tiwari-448222146/",
+    "github": "https://github.com/Vishesh813",
+    "resumeUrl": "https://drive.google.com/file/d/1f9BPw8Mq9Y54vVJlq7_gkjGZJldZ0ZS5/view?usp=sharing",
+    "about": [
+      "Experienced IT professional with 6.5+ years of work experience seeking a position as Full stack developer. Offering expertise in Java, Spring Boot/MVC, React and AWS.",
+      "I am passionate about creating efficient, scalable applications and have a strong background in both frontend and backend development. My experience spans across various technologies including Java ecosystem, modern JavaScript frameworks, and cloud platforms."
+    ],
+    "tags": [
+      "6.5+ Years Experience",
+      "Java Expert",
+      "React Developer"
+    ]
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "Master of Computer Application",
+      "school": "Kamla Nehru Institute of Technology",
+      "university": "Dr. A.P.J. Abdul Kalam Technical University Uttar Pradesh, Lucknow",
+      "duration": "2016 - 2019",
+      "percentage": "77.67%",
+      "type": "Post Graduate",
+      "color": "#1976d2"
+    },
+    {
+      "id": 2,
+      "degree": "B.Sc (Mathematics/Chemistry)",
+      "school": "V.S.S.D College, Kanpur",
+      "university": "Chhatrapati Shahu Ji Maharaj University, Kanpur",
+      "duration": "2012 - 2016",
+      "percentage": "62.67%",
+      "type": "Graduate",
+      "color": "#388e3c"
+    },
+    {
+      "id": 3,
+      "degree": "Intermediate",
+      "school": "N.L.K Inter College, Kanpur",
+      "university": "U.P. Board Allahabad",
+      "duration": "2010 - 2012",
+      "percentage": "79.88%",
+      "type": "Higher Secondary",
+      "color": "#f57c00"
+    },
+    {
+      "id": 4,
+      "degree": "High School (10th)",
+      "school": "N.L.K Inter College, Kanpur",
+      "university": "U.P. Board Allahabad",
+      "duration": "2009 - 2010",
+      "percentage": "80.81%",
+      "type": "Secondary",
+      "color": "#7b1fa2"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": 1,
+      "position": "Senior Engineer",
+      "company": "Target",
+      "location": "Bangalore, India",
+      "duration": "Aug 2025 - Present",
+      "type": "Full Time",
+      "logo": "https://cdn.worldvectorlogo.com/logos/target-1.svg",
+      "achievements": [
+        "Working on Ad Tech platform for targeted advertising solutions",
+        "Developing scalable microservices for real-time ad serving and optimization",
+        "Implementing data-driven advertising algorithms and analytics",
+        "Contributing to high-performance systems handling millions of ad requests"
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Senior Software Engineer",
+      "company": "Lowe's",
+      "location": "Bangalore, India",
+      "duration": "Feb 2022 - Aug 2025",
+      "type": "Full Time",
+      "logo": "./src/assets/img/lowes-logo.png",
+      "achievements": [
+        "Developed Promo Central Application for creating and managing diverse types of promotions in a generic way",
+        "Optimized search functionality to handle millions of records efficiently",
+        "Implemented CI/CD pipeline using Jenkins and Docker for automated deployments",
+        "Worked on microservices architecture using Spring Boot and AWS services"
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Software Engineer",
+      "company": "Principal Global Services",
+      "location": "Pune, India",
+      "duration": "Jan 2022 - Feb 2023",
+      "type": "Full Time",
+      "logo": "./src/assets/img/pricipal-logo.png",
+      "achievements": [
+        "Enhanced operation teams experience for tracking transactions and generating reports",
+        "Developed Spring Batch application for processing large volumes of records",
+        "Implemented AWS CDK for Infrastructure as Code deployment",
+        "Created notification systems using AWS SQS, Lambda, and CloudWatch"
+      ]
+    },
+    {
+      "id": 4,
+      "position": "Software Developer",
+      "company": "Tata Consultancy Services",
+      "location": "Pune, India",
+      "duration": "Jul 2019 - Jan 2022",
+      "type": "Full Time",
+      "logo": "./src/assets/img/tcs-logo.png",
+      "achievements": [
+        "Developed web-based application to find and manage active mainframe jobs",
+        "Implemented advanced search functionality with multiple filter options",
+        "Created automated testing solutions using HP LeanFT",
+        "Worked on Java EE 8 applications with Spring Boot and Bootstrap"
+      ]
+    }
+  ],
+  "skills": {
+    "all": [
+      "Java/J2EE platform preferably Java 8 or above",
+      "Spring MVC, Spring Boot, Spring Batch, Microservices",
+      "REST APIs",
+      "XML, JSON",
+      "Unit test framework - JUNIT and Mockito",
+      "VCS tools - Git, BitBucket",
+      "Build tool Maven",
+      "CI/CD pipeline tool - Bamboo, Github actions and Jenkins",
+      "AWS services - SNS, SQS, API gateway, IAM, S3, Cloudwatch, SES, Lambda",
+      "Understanding of ORM tools - Hibernate",
+      "Database concept, MYSQL and SQL",
+      "Web servers and application servers like Tomcat, Websphere and JBoss",
+      "Oauth, OpenID",
+      "Apigee, Kibana",
+      "CSS, HTML, Javascript, Jquery, React, Typescript",
+      "Dev Ops - Graphana, Kubernetes, Docker, Kafka"
+    ],
+    "frontend": [
+      {
+        "name": "HTML",
+        "level": 90
+      },
+      {
+        "name": "CSS",
+        "level": 85
+      },
+      {
+        "name": "JavaScript",
+        "level": 80
+      },
+      {
+        "name": "React",
+        "level": 85
+      },
+      {
+        "name": "TypeScript",
+        "level": 75
+      },
+      {
+        "name": "jQuery",
+        "level": 70
+      }
+    ],
+    "backend": [
+      {
+        "name": "Java/J2EE",
+        "level": 90
+      },
+      {
+        "name": "Spring Boot",
+        "level": 85
+      },
+      {
+        "name": "Spring MVC",
+        "level": 80
+      },
+      {
+        "name": "REST APIs",
+        "level": 85
+      },
+      {
+        "name": "JUnit & Mockito",
+        "level": 80
+      },
+      {
+        "name": "Git & Maven",
+        "level": 85
+      },
+      {
+        "name": "CI/CD (Jenkins)",
+        "level": 75
+      }
+    ]
+  },
+  "awards": [
+    {
+      "id": 1,
+      "title": "Spot Award",
+      "description": "Recognized for outstanding performance and contribution",
+      "icon": "⭐",
+      "color": "#ffd700",
+      "year": "2023"
+    },
+    {
+      "id": 2,
+      "title": "Delivery Award",
+      "description": "Recognized for exceptional project delivery and client satisfaction",
+      "icon": "🏆",
+      "color": "#c0c0c0",
+      "year": "2022"
+    },
+    {
+      "id": 3,
+      "title": "TCS iON Java Hackathon 2019 Finalist",
+      "description": "Reached final round in TCS internal Java hackathon competition",
+      "icon": "🥇",
+      "color": "#cd7f32",
+      "year": "2019"
+    },
+    {
+      "id": 4,
+      "title": "3x Spot Winner",
+      "description": "Three times spot winner in team for exceptional contributions",
+      "icon": "🏅",
+      "color": "#ff6b6b",
+      "year": "2019-2021"
+    },
+    {
+      "id": 5,
+      "title": "TCS CODEVITA 2018",
+      "description": "Cleared first round of TCS CODEVITA programming competition",
+      "icon": "🥇",
+      "color": "#4ecdc4",
+      "year": "2018"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Ad Tech Platform",
+      "description": "A scalable advertising technology platform built for Target to deliver targeted ads and optimize ad performance in real-time.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "AWS",
+        "Kafka",
+        "Redis"
+      ],
+      "features": [
+        "Real-time ad serving and optimization",
+        "Data-driven advertising algorithms",
+        "High-performance systems handling millions of requests",
+        "Scalable microservices architecture"
+      ],
+      "company": "Target",
+      "year": "2025",
+      "status": "Production",
+      "icon": "🎯"
+    },
+    {
+      "id": 2,
+      "title": "Promo Central Application",
+      "description": "A comprehensive promotion management system built for Lowe's to create and manage diverse types of promotions in a generic way.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "Jenkins",
+        "Docker",
+        "AWS"
+      ],
+      "features": [
+        "Generic promotion creation system",
+        "Optimized search over millions of records",
+        "CI/CD pipeline with Jenkins and Docker",
+        "Microservices architecture"
+      ],
+      "company": "Lowe's",
+      "year": "2023",
+      "status": "Production",
+      "icon": "🏪"
+    },
+    {
+      "id": 3,
+      "title": "Transaction Tracking System",
+      "description": "Enhanced operation teams experience for tracking transactions and generating reports with advanced filtering capabilities.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "AWS SQS",
+        "AWS Lambda",
+        "CloudWatch"
+      ],
+      "features": [
+        "Real-time transaction tracking",
+        "Advanced reporting system",
+        "AWS-based notification system",
+        "Event-driven architecture"
+      ],
+      "company": "Principal Global Services",
+      "year": "2022",
+      "status": "Production",
+      "icon": "📊"
+    },
+    {
+      "id": 4,
+      "title": "Spring Batch Processing System",
+      "description": "Developed Spring Batch application for processing large volumes of records efficiently with error handling and monitoring.",
+      "technologies": [
+        "Java",
+        "Spring Batch",
+        "Spring Boot",
+        "AWS CDK",
+        "Infrastructure as Code"
+      ],
+      "features": [
+        "Batch processing of large datasets",
+        "Error handling and retry mechanisms",
+        "Infrastructure as Code deployment",
+        "Monitoring and alerting"
+      ],
+      "company": "Principal Global Services",
+      "year": "2022",
+      "status": "Production",
+      "icon": "⚙️"
+    },
+    {
+      "id": 5,
+      "title": "Mainframe Jobs Management System",
+      "description": "Web-based application to find and manage active mainframe jobs with advanced search capabilities.",
+      "technologies": [
+        "Java EE 8",
+        "Spring Boot",
+        "Bootstrap",
+        "jQuery",
+        "REST APIs"
+      ],
+      "features": [
+        "Advanced search functionality",
+        "Real-time job status monitoring",
+        "User-friendly web interface",
+        "RESTful API integration"
+      ],
+      "company": "Tata Consultancy Services",
+      "year": "2021",
+      "status": "Production",
+      "icon": "🖥️"
+    },
+    {
+      "id": 6,
+      "title": "Automated Testing Framework",
+      "description": "Automated testing solution using HP LeanFT for comprehensive test coverage and continuous integration.",
+      "technologies": [
+        "Java",
+        "HP LeanFT",
+        "Selenium",
+        "Test Automation",
+        "CI/CD"
+      ],
+      "features": [
+        "Automated test case execution",
+        "Integration with CI/CD pipeline",
+        "Comprehensive test reporting",
+        "Cross-browser testing support"
+      ],
+      "company": "Tata Consultancy Services",
+      "year": "2020",
+      "status": "Production",
+      "icon": "🧪"
+    }
+  ],
+  "chatbot": {
+    "general": [
+      {
+        "id": 1,
+        "question": "What's Vishesh's work experience?",
+        "answer": "Vishesh has 6.5+ years of professional experience as a Full Stack Java Developer. He currently works as a Senior Software Engineer at Target in Ad Tech, previously worked at Lowe's, Principal Global Services and TCS. His career spans across various domains including advertising technology, retail, financial services, and consulting."
+      },
+      {
+        "id": 2,
+        "question": "What's his current role?",
+        "answer": "Currently, Vishesh works as a Senior Software Engineer at Target, where he develops Ad Tech platform solutions for targeted advertising, real-time ad serving, and optimization using Java, Spring Boot, and AWS technologies."
+      },
+      {
+        "id": 3,
+        "question": "Tell me about his education",
+        "answer": "Vishesh holds an MCA (Master of Computer Applications) from Kamla Nehru Institute of Technology (KNIT) and a B.Sc in Mathematics/Chemistry from CSJM University, Kanpur."
+      },
+      {
+        "id": 4,
+        "question": "How can I contact him?",
+        "answer": "You can reach Vishesh at vishesh.tiwari813@gmail.com, connect on LinkedIn (https://www.linkedin.com/in/vishesh-tiwari-448222146/), or check his GitHub (https://github.com/Vishesh813). He's open to new opportunities!"
+      }
+    ],
+    "technical": [
+      {
+        "id": 5,
+        "question": "What technologies does he know?",
+        "answer": "Vishesh is skilled in Java, Spring Boot, React, AWS, Microservices, Docker, Jenkins, and more. He has expertise in both frontend and backend development, with strong knowledge of cloud technologies and DevOps practices."
+      },
+      {
+        "id": 6,
+        "question": "What projects has he worked on?",
+        "answer": "Vishesh has worked on several major projects including Ad Tech Platform at Target, Promo Central Application at Lowe's, Transaction Tracking Systems, Spring Batch Processing applications, and Mainframe Jobs Management systems. His projects focus on scalable, enterprise-level solutions."
+      },
+      {
+        "id": 7,
+        "question": "What's his Java expertise?",
+        "answer": "Vishesh has deep expertise in Java ecosystem including Spring Boot, Spring MVC, Microservices architecture, RESTful APIs, and enterprise application development. He has worked on large-scale Java applications serving millions of users."
+      },
+      {
+        "id": 8,
+        "question": "Tell me about his cloud experience",
+        "answer": "Vishesh has extensive experience with AWS services including Lambda, SQS, CloudWatch, and CDK. He has implemented Infrastructure as Code and worked on cloud-native applications with serverless architectures."
+      }
+    ],
+    "career": [
+      {
+        "id": 9,
+        "question": "What are his achievements?",
+        "answer": "Vishesh has received multiple recognitions including Star Performer awards, client appreciation certificates, and has been recognized for his technical contributions and leadership in various projects."
+      },
+      {
+        "id": 10,
+        "question": "Where is he located?",
+        "answer": "Vishesh is based in India and has experience working with global teams across different time zones."
+      },
+      {
+        "id": 11,
+        "question": "What's his leadership experience?",
+        "answer": "Vishesh has led technical teams, mentored junior developers, and has been responsible for architectural decisions in multiple projects. He has experience in code reviews, technical planning, and cross-functional collaboration."
+      },
+      {
+        "id": 12,
+        "question": "Why should I hire him?",
+        "answer": "Vishesh brings 6.5+ years of proven experience, strong technical skills, leadership capabilities, and a track record of delivering scalable solutions. He's passionate about technology, continuously learning, and has consistently received recognition for his contributions."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Vishesh Tiwari - Full Stack Java Developer | 6.5+ Years Experience",
+    "description": "Experienced Full Stack Java Developer with 6.5+ years at Target, Lowe's, Principal Global Services, and TCS. Expert in Java, Spring Boot, React, AWS, and Microservices.",
+    "keywords": "Java Developer, Full Stack Developer, Spring Boot, React, AWS, Microservices, Software Engineer, Vishesh Tiwari",
+    "url": "https://vishesh813.github.io/"
+  }
+}

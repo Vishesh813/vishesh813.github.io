@@ -1,0 +1,338 @@
+.education-section {
+  padding: 20px 0;
+  min-height: 100vh;
+  background-color: var(--bg-secondary);
+}
+
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 50px 0;
+  color: var(--text-primary);
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--linkedin-blue);
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px var(--shadow-light);
+  z-index: 2;
+  border: 3px solid var(--bg-primary);
+}
+
+.marker-icon {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.timeline-content {
+  position: relative;
+}
+
+.education-card {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px var(--shadow-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--linkedin-blue);
+}
+
+.education-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--shadow-medium);
+}
+
+.education-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.school-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 0;
+  margin-right: 20px;
+  border: none;
+  object-fit: contain;
+  box-shadow: none;
+  flex-shrink: 0;
+}
+
+.education-info {
+  flex: 1;
+}
+
+.degree-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: var(--text-primary);
+}
+
+.school-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: var(--linkedin-blue);
+}
+
+.university-name {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 20px 0;
+  border-radius: 1px;
+}
+
+.education-meta {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.meta-item {
+  background-color: var(--bg-tertiary);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+.type-chip {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 2px 4px var(--shadow-light);
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  .education-container {
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    font-size: 2.2rem;
+  }
+  
+  .education-card {
+    padding: 25px;
+  }
+  
+  .school-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .education-container {
+    padding: 0 10px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .timeline::before {
+    left: 25px;
+  }
+  
+  .timeline-item {
+    padding-left: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-marker {
+    left: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .marker-icon {
+    font-size: 1rem;
+  }
+  
+  .education-card {
+    padding: 20px;
+  }
+  
+  .education-header {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .school-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .education-info {
+    text-align: center;
+  }
+  
+  .degree-title {
+    font-size: 1.3rem;
+  }
+  
+  .school-name {
+    font-size: 1.1rem;
+  }
+  
+  .university-name {
+    font-size: 0.9rem;
+  }
+  
+  .education-meta {
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .meta-item, .type-chip {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .education-container {
+    padding: 0 5px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .timeline::before {
+    left: 20px;
+  }
+  
+  .timeline-item {
+    padding-left: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .timeline-marker {
+    left: 10px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .marker-icon {
+    font-size: 0.9rem;
+  }
+  
+  .education-card {
+    padding: 15px;
+  }
+  
+  .school-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .degree-title {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+  }
+  
+  .school-name {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  
+  .university-name {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  
+  .education-meta {
+    gap: 8px;
+  }
+  
+  .meta-item, .type-chip {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+}

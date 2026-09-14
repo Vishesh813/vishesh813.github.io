@@ -1,0 +1,90 @@
+{
+  "routes": [
+    {
+      "id": "about",
+      "path": "/",
+      "name": "About",
+      "component": "AboutSection",
+      "title": "About Me",
+      "description": "Learn about my background and experience",
+      "icon": "👤",
+      "showInNav": true,
+      "isDefault": true
+    },
+    {
+      "id": "about-alt",
+      "path": "/about",
+      "name": "About",
+      "component": "AboutSection",
+      "title": "About Me",
+      "description": "Learn about my background and experience",
+      "icon": "👤",
+      "showInNav": false,
+      "isDefault": false
+    },
+    {
+      "id": "work-experience",
+      "path": "/work-experience",
+      "name": "Work Experience",
+      "component": "WorkExperienceSection",
+      "title": "Work Experience",
+      "description": "My professional career journey",
+      "icon": "💼",
+      "showInNav": true,
+      "isDefault": false
+    },
+    {
+      "id": "education",
+      "path": "/education",
+      "name": "Education",
+      "component": "EducationSection",
+      "title": "Education",
+      "description": "My academic background and qualifications",
+      "icon": "🎓",
+      "showInNav": true,
+      "isDefault": false
+    },
+    {
+      "id": "projects",
+      "path": "/projects",
+      "name": "Projects",
+      "component": "Projects",
+      "title": "Projects & Portfolio",
+      "description": "Showcase of my technical projects",
+      "icon": "🚀",
+      "showInNav": false,
+      "isDefault": false
+    },
+    {
+      "id": "skills",
+      "path": "/skills",
+      "name": "Skills",
+      "component": "Skills",
+      "title": "Technical Skills",
+      "description": "My technical expertise and competencies",
+      "icon": "⚡",
+      "showInNav": true,
+      "isDefault": false
+    },
+    {
+      "id": "awards",
+      "path": "/awards",
+      "name": "Awards",
+      "component": "Awards",
+      "title": "Awards & Recognition",
+      "description": "My achievements and recognitions",
+      "icon": "🏆",
+      "showInNav": true,
+      "isDefault": false
+    }
+  ],
+  "fallback": {
+    "component": "AboutSection",
+    "redirect": "/"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-28",
+    "description": "Route configuration for Vishesh Tiwari's portfolio"
+  }
+}

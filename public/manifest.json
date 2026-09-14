@@ -1,0 +1,23 @@
+{
+  "short_name": "Vishesh Tiwari",
+  "name": "Vishesh Tiwari - Full Stack Java Developer",
+  "description": "Full Stack Java Developer with 6.5+ years of experience in Java, Spring Boot, React, AWS, and Microservices.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#0a66c2",
+  "background_color": "#ffffff"
+}
